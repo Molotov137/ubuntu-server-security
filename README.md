@@ -6,7 +6,7 @@
 
 Production-ready security configurations for Ubuntu servers.
 
-**The Problem**: Security tools are powerful but complex to configure. Default settings generate noise, integrations are missing, and credentials are stored in plaintext. After weeks of hardening production servers to 100% CIS Benchmark compliance, I've extracted 12 battle-tested security components.
+**The Problem**: Security tools are powerful but complex to configure. Default settings generate noise, integrations are missing, and credentials are stored in plaintext. After weeks of hardening production servers to 100% CIS Benchmark compliance, I've extracted 13 battle-tested security components.
 
 ## Components
 
@@ -23,11 +23,12 @@ Production-ready security configurations for Ubuntu servers.
 | **[apparmor/](apparmor/)** | Mandatory Access Control profiles (PostgreSQL, Docker) |
 | **[vaultwarden/](vaultwarden/)** | Credential management via Bitwarden CLI (no plaintext secrets) |
 | **[fail2ban/](fail2ban/)** | Brute-force protection (GeoIP filtering, Telegram alerts) |
+| **[security-monitoring/](security-monitoring/)** | Unified security event monitoring with smart deduplication |
 | **[lynis/](lynis/)** | Security auditing & hardening recommendations (CIS compliance) |
 
 ## Features
 
-- ✅ **Defense-in-Depth** - 12 complementary security layers (boot → network → detection → logging → audit)
+- ✅ **Defense-in-Depth** - 13 complementary security layers (boot → network → detection → logging → audit → monitoring)
 - ✅ **CIS Benchmark Compliance** - 40+ controls across all components
 - ✅ **Drop-in Configuration Pattern** - Modular configs for all components
 - ✅ **Docker-Compatible** - All hardening tested with containerized workloads
@@ -92,10 +93,11 @@ sudo rkhunter --propupd
 | **Kernel** | kernel-hardening | Harden kernel parameters, /tmp isolation |
 | **Network** | ssh-hardening | Secure remote access |
 | **Firewall** | ufw / nftables | Control network traffic |
-| **Detection** | aide, rkhunter | Detect intrusions and rootkits |
+| **Detection** | aide, rkhunter, fail2ban | Detect intrusions and rootkits |
 | **Logging** | auditd | Kernel-level event logging |
 | **Access Control** | apparmor | Mandatory Access Control |
 | **Credentials** | vaultwarden | Eliminate plaintext secrets |
+| **Monitoring** | security-monitoring | Unified security event monitoring |
 | **Audit** | lynis | Comprehensive security auditing |
 
 ### Firewall Selection Guide
@@ -108,16 +110,18 @@ sudo rkhunter --propupd
 | Docker host (simple) | **UFW** | With Docker-aware patterns |
 | Docker host (advanced) | **nftables** | Chain preservation, custom rules |
 
-### Detection Components
+### Detection & Monitoring Components
 
 | Component | Method | Best For |
 |-----------|--------|----------|
 | **AIDE** | Integrity-based | Detecting file changes |
 | **rkhunter** | Signature-based | Detecting known rootkits |
 | **auditd** | Event-based | Real-time "who did what when" |
+| **fail2ban** | Pattern-based | Blocking brute-force attacks |
+| **security-monitoring** | Aggregation-based | Unified event monitoring with smart deduplication |
 | **Lynis** | Audit-based | Comprehensive security posture assessment |
 
-**Recommendation**: Use all four for defense-in-depth.
+**Recommendation**: Use all six for defense-in-depth.
 
 ## Key Concepts
 
