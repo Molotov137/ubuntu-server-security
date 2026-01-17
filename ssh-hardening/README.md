@@ -35,7 +35,6 @@ sudo systemctl restart ssh
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation, key generation, and deployment |
 | [CIS_CONTROLS.md](docs/CIS_CONTROLS.md) | Complete mapping of 15+ CIS controls |
-| [DROP_INS.md](docs/DROP_INS.md) | Role-specific override examples |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (lockout prevention, key auth failures) |
 
 ## Requirements

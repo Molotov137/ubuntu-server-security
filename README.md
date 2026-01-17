@@ -62,7 +62,7 @@ sudo cp ssh-hardening/sshd_config.template /etc/ssh/sshd_config
 ./ssh-hardening/scripts/validate-sshd-config.sh
 sudo systemctl restart sshd
 
-# 4. UFW Firewall (simple servers)
+# 5. UFW Firewall (simple servers)
 sudo apt install ufw
 sudo ufw default deny incoming
 sudo ufw default allow outgoing

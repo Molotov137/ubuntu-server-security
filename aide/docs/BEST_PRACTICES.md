@@ -331,7 +331,7 @@ WantedBy=timers.target  # NOT multi-user.target
 
 **Why**: AIDE can take 5-15 minutes - don't delay boot
 
-**See**: [docs/BOOT_RESILIENCY.md](docs/BOOT_RESILIENCY.md)
+**See**: [BOOT_RESILIENCY.md](BOOT_RESILIENCY.md)
 
 ---
 

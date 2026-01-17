@@ -30,8 +30,6 @@ sudo ./scripts/setup-grub-password.sh
 |----------|-------------|
 | [GRUB_PASSWORD.md](docs/GRUB_PASSWORD.md) | GRUB password setup (automated + manual) |
 | [UEFI_PASSWORD.md](docs/UEFI_PASSWORD.md) | UEFI/BIOS password guides (ASRock, Dell, HP, Lenovo) |
-| [TRIPLE_VALIDATION.md](docs/TRIPLE_VALIDATION.md) | Validation process and rollback procedures |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Boot failures and recovery |
 
 ## Requirements
 

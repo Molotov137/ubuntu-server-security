@@ -33,7 +33,6 @@ sudo systemctl restart auditd
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation, rule deployment, and SIEM integration |
 | [CIS_CONTROLS.md](docs/CIS_CONTROLS.md) | CIS Benchmark 4.1.x mapping and rule explanations |
-| [RULE_PROFILES.md](docs/RULE_PROFILES.md) | Base vs Aggressive vs Docker-aware profiles |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (log rotation, performance impact) |
 
 ## Requirements

@@ -165,7 +165,7 @@ sudo lsattr /usr/bin/aide | grep -q 'i' && \
 Use the provided validation script:
 
 ```bash
-./scripts/validate-immutable-flags.sh
+../scripts/validate-immutable-flags.sh
 ```
 
 **Output**:
@@ -344,7 +344,7 @@ Immutable flags are ONE layer of defense:
 
 ## See Also
 
-- **[docs/AIDE_BINARY_VALIDATION.md](docs/AIDE_BINARY_VALIDATION.md)** - Monitoring and validation
+- **[AIDE_BINARY_VALIDATION.md](AIDE_BINARY_VALIDATION.md)** - Monitoring and validation
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Issue #5: Immutable flag prevents APT upgrade
 - **[BEST_PRACTICES.md](BEST_PRACTICES.md)** - Security best practices
-- **[scripts/validate-immutable-flags.sh](scripts/validate-immutable-flags.sh)** - Validation script
+- **[../scripts/validate-immutable-flags.sh](../scripts/validate-immutable-flags.sh)** - Validation script

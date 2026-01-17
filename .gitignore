@@ -1,12 +1,41 @@
+# Security-sensitive files
+*.key
+*.pem
+id_rsa
+id_ed25519
+id_ecdsa
+*.p12
+*.pfx
+passwords.txt
+secrets.txt
+*.secret
+
+# Generated security reports (local test runs)
+lynis-report.dat
+aide.db.new
+rkhunter.log
+*.scan
+
 # Test outputs
 *.tmp
 *.log
 test-output/
+test-results/
 
 # Local configs
 config.local
 *.env
 !*.example.env
+local.conf
+*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
 
 # Editor
 .vscode/
@@ -14,18 +43,33 @@ config.local
 *.swp
 *.swo
 *~
+.vim/
 
 # OS
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git/Patch artifacts
+*.orig
+*.rej
+*.patch
+*.diff
 
 # Temporary files
 /tmp/
+*.cache
 
 # Build artifacts
 *.bak
+*~
 
 # Personal/marketing content
 REDDIT_POST.md
 LINKEDIN_POST.md
 COMPONENT_README_TEMPLATE.md
+
+# rclone links and CLAUDE.md symlinks
+*.rclonelink
+CLAUDE.md

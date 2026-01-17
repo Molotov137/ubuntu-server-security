@@ -37,7 +37,6 @@ sudo ufw status verbose
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation, basic rules, and drop-in patterns |
 | [DOCKER_NETWORKING.md](docs/DOCKER_NETWORKING.md) | Docker compatibility and best practices |
-| [DROP_INS.md](docs/DROP_INS.md) | Service-specific rule examples |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (Docker conflicts, port blocking) |
 
 ## Requirements

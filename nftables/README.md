@@ -35,8 +35,6 @@ sudo ./scripts/deploy-nftables.sh /etc/nftables.conf
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation, template selection, and deployment |
 | [WIREGUARD_INTEGRATION.md](docs/WIREGUARD_INTEGRATION.md) | VPN setup with full DNS takeover |
-| [DOCKER_COMPATIBILITY.md](docs/DOCKER_COMPATIBILITY.md) | Chain preservation and custom rules |
-| [NAT_CONFIGURATION.md](docs/NAT_CONFIGURATION.md) | SNAT, DNAT, and port forwarding |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (Docker networking, VPN routing) |
 
 ## Requirements

@@ -401,8 +401,8 @@ If issues persist:
 5. **Review documentation**:
    - [SETUP.md](SETUP.md) - Installation steps
    - [BEST_PRACTICES.md](BEST_PRACTICES.md) - Production guidelines
-   - [BOOT_RESILIENCY.md](docs/BOOT_RESILIENCY.md) - Boot issues
-   - [MONITORING_AIDE_ACCESS.md](docs/MONITORING_AIDE_ACCESS.md) - Permission issues
+   - [BOOT_RESILIENCY.md](BOOT_RESILIENCY.md) - Boot issues
+   - [MONITORING_AIDE_ACCESS.md](MONITORING_AIDE_ACCESS.md) - Permission issues
 
 ---
 

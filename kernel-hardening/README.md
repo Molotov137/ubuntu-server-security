@@ -31,9 +31,7 @@ sudo ./scripts/harden-tmp.sh
 | Document | Description |
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation and parameter explanations |
-| [SYSCTL_PARAMETERS.md](docs/SYSCTL_PARAMETERS.md) | Complete list of hardening parameters |
 | [TMP_HARDENING.md](docs/TMP_HARDENING.md) | /tmp noexec setup and Docker compatibility |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (Docker networking, IPv6 disabled) |
 
 ## Requirements
 

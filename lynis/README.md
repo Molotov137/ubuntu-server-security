@@ -32,7 +32,6 @@ cat /var/log/lynis-report.dat
 |----------|-------------|
 | [SETUP.md](docs/SETUP.md) | Installation, automation, and report interpretation |
 | [HARDENING_GUIDE.md](docs/HARDENING_GUIDE.md) | Step-by-step hardening based on Lynis findings |
-| [CIS_VALIDATION.md](docs/CIS_VALIDATION.md) | Using Lynis to validate CIS Benchmark compliance |
 | [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common warnings and how to address them |
 
 ## Requirements

@@ -28,17 +28,6 @@ source vaultwarden-credentials.sh
 DB_PASSWORD=$(get_credential "PostgreSQL Database Password")
 ```
 
-**Full guide**: See [docs/SETUP.md](docs/SETUP.md)
-
-## Documentation
-
-| Document | Description |
-|----------|-------------|
-| [SETUP.md](docs/SETUP.md) | Installation, vault setup, and CLI configuration |
-| [LIBRARY_USAGE.md](docs/LIBRARY_USAGE.md) | Sourced library API and examples |
-| [MIGRATION.md](docs/MIGRATION.md) | Migrating from .env files to Vaultwarden |
-| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Common issues (session timeout, vault locked) |
-
 ## Requirements
 
 - Ubuntu 22.04+ / Debian 11+
