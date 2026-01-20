@@ -7,11 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Planned
+- Additional security component integrations
+- Ansible playbook support
+- Docker security hardening module
+
+## [1.0.1] - 2026-01-20
+
+### Changed
+- **CODE_OF_CONDUCT.md**: Updated contact method from email to GitHub Issues for abuse reporting
+
 ### Added
 - CONTRIBUTING.md with development guidelines
 - CODE_OF_CONDUCT.md (Contributor Covenant v2.1)
 - SECURITY.md with vulnerability reporting process
-- This CHANGELOG.md
 
 ## [1.0.0] - 2026-01-20
 
@@ -53,7 +62,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 1.0.1 | 2026-01-20 | Documentation patch (CODE_OF_CONDUCT.md contact update) |
 | 1.0.0 | 2026-01-20 | Initial release with 14 security components |
 
-[Unreleased]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/fidpa/ubuntu-server-security/releases/tag/v1.0.0
