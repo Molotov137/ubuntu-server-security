@@ -70,3 +70,10 @@ sudo fail2ban-client status
 - [fail2ban Official Documentation](https://www.fail2ban.org/)
 - [fail2ban Wiki](https://github.com/fail2ban/fail2ban/wiki)
 - [Ubuntu fail2ban Guide](https://help.ubuntu.com/community/Fail2ban)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [SSH Hardening](../ssh-hardening/) - Complementary SSH protection
+- [auditd](../auditd/) - Kernel-level audit logging
+- [security-monitoring](../security-monitoring/) - Unified security event monitoring

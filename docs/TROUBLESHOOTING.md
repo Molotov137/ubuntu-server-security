@@ -1,5 +1,7 @@
 # AIDE Troubleshooting Guide
 
+> **TL;DR**: Most AIDE issues: missing database (run `aideinit`), stale DB (check timer), or too many false positives (add excludes). Check `/var/log/aide/aide.log` first.
+
 Common issues and solutions for AIDE on Ubuntu servers.
 
 ## Database Issues

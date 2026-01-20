@@ -1,5 +1,7 @@
 # AIDE Setup Guide
 
+> **TL;DR**: `apt install aide aide-common`, deploy template config, replace placeholders, run `aideinit`, then enable daily checks via systemd timer. Requires Ubuntu 22.04+.
+
 Complete installation and deployment guide for AIDE with production-ready configuration.
 
 ## Prerequisites

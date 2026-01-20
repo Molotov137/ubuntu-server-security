@@ -66,3 +66,10 @@ sudo ./scripts/deploy-nftables.sh /etc/nftables.conf
 - [nftables Official Documentation](https://wiki.nftables.org/)
 - [nftables Wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
 - [Debian nftables Guide](https://wiki.debian.org/nftables)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [ufw](../ufw/) - Simpler firewall alternative
+- [fail2ban](../fail2ban/) - Intrusion prevention (works with nftables)
+- [kernel-hardening](../kernel-hardening/) - Network sysctl parameters

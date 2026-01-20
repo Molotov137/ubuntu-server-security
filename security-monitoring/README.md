@@ -86,8 +86,15 @@ sudo systemctl status security-log-monitor.timer
 
 **Why Deduplication?** Prevents alert fatigue by only notifying on new events, not recurring ones.
 
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [fail2ban](../fail2ban/) - Intrusion prevention (monitored component)
+- [aide](../aide/) - File integrity monitoring (monitored component)
+- [auditd](../auditd/) - Kernel-level audit logging (monitored component)
+- [rkhunter](../rkhunter/) - Rootkit detection (monitored component)
+
 ---
 
-**See also**:
+**External Dependencies**:
 - [bash-production-toolkit](https://github.com/fidpa/bash-production-toolkit) - Required dependency
-- [ubuntu-server-security](https://github.com/fidpa/ubuntu-server-security) - Full hardening suite

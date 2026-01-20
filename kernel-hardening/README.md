@@ -62,3 +62,10 @@ sudo ./scripts/harden-tmp.sh
 - [Linux Kernel sysctl Documentation](https://www.kernel.org/doc/Documentation/sysctl/)
 - [CIS Ubuntu Linux Benchmark](https://www.cisecurity.org/benchmark/ubuntu_linux)
 - [Red Hat Security Guide - Kernel](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-securing_the_kernel)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [nftables](../nftables/) - Firewall rules (complementary network security)
+- [lynis](../lynis/) - Validates kernel hardening settings
+- [apparmor](../apparmor/) - Mandatory Access Control

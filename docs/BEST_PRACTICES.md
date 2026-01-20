@@ -1,5 +1,7 @@
 # AIDE Best Practices
 
+> **TL;DR**: Never auto-update AIDE database (review changes first), keep offsite backups, test updates in staging, and use `_aide` group for non-root monitoring access.
+
 Production recommendations based on servers with 100% CIS Benchmark compliance.
 
 ## Database Management

@@ -63,3 +63,10 @@ sudo systemctl restart auditd
 - [Linux Audit Documentation](https://github.com/linux-audit/audit-documentation)
 - [CIS Ubuntu Linux Benchmark](https://www.cisecurity.org/benchmark/ubuntu_linux)
 - [Red Hat auditd Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/chap-system_auditing)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [aide](../aide/) - File integrity monitoring
+- [rkhunter](../rkhunter/) - Rootkit detection
+- [lynis](../lynis/) - Security auditing and compliance

@@ -1,5 +1,7 @@
 # Ubuntu Server Security - Roadmap
 
+> **TL;DR**: All 14 security components released (v1.0.0). CIS Benchmark aligned, battle-tested on production servers, with Prometheus/Grafana integration. Future: automation improvements.
+
 This repository provides **12 production-ready security components** for Ubuntu servers, all released and battle-tested.
 
 ## Vision

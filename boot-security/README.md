@@ -60,3 +60,10 @@ sudo ./scripts/setup-grub-password.sh
 - [GRUB Manual - Security](https://www.gnu.org/software/grub/manual/grub/html_node/Security.html)
 - [CIS Ubuntu Linux Benchmark](https://www.cisecurity.org/benchmark/ubuntu_linux)
 - [Ubuntu GRUB2 Documentation](https://help.ubuntu.com/community/Grub2)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [usb-defense](../usb-defense/) - USB attack prevention
+- [kernel-hardening](../kernel-hardening/) - Kernel security parameters
+- [vaultwarden](../vaultwarden/) - Secure GRUB password storage

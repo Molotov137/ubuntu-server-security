@@ -62,3 +62,10 @@ sudo aa-enforce /etc/apparmor.d/usr.lib.postgresql.16.bin.postgres
 - [Ubuntu AppArmor Wiki](https://wiki.ubuntu.com/AppArmor)
 - [CIS Ubuntu Linux Benchmark](https://www.cisecurity.org/benchmark/ubuntu_linux)
 - [PostgreSQL AppArmor Wiki](https://wiki.postgresql.org/wiki/AppArmor)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [kernel-hardening](../kernel-hardening/) - Kernel security parameters
+- [auditd](../auditd/) - Audit AppArmor denials
+- [lynis](../lynis/) - Validates AppArmor configuration

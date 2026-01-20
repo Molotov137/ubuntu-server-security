@@ -1,5 +1,7 @@
 # Prometheus Integration for AIDE
 
+> **TL;DR**: Export 4 AIDE metrics (db_size, db_age, last_update, check_status) via node_exporter textfile collector. Alert on stale databases (>48h) and failed checks.
+
 Monitor AIDE database health and check status with Prometheus and Grafana.
 
 ## Metrics Overview

@@ -1,5 +1,7 @@
 # False-Positive Reduction for AIDE
 
+> **TL;DR**: Default AIDE config generates thousands of false positives. Exclude logs (`ActLog`), Docker volumes, and runtime state to achieve 99.7% noise reduction (3,799 → 12 changes/day).
+
 The hard-learned lessons from weeks of debugging AIDE on production servers with 100% CIS Benchmark compliance.
 
 ## The Problem

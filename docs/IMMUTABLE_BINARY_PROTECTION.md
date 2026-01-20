@@ -1,5 +1,7 @@
 # Immutable Binary Protection for AIDE
 
+> **TL;DR**: Use `chattr +i /usr/bin/aide` to make AIDE binary immutable. Even root cannot modify it without removing the flag first, making rootkit replacement detectable.
+
 Prevent rootkits from replacing AIDE binaries using Linux immutable file attributes.
 
 ## Overview

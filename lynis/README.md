@@ -65,3 +65,10 @@ cat /var/log/lynis-report.dat
 - [Lynis Official Documentation](https://cisofy.com/documentation/lynis/)
 - [Lynis GitHub Repository](https://github.com/CISOfy/lynis)
 - [Ubuntu Lynis Package](https://packages.ubuntu.com/search?keywords=lynis)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [kernel-hardening](../kernel-hardening/) - Implement sysctl recommendations
+- [ssh-hardening](../ssh-hardening/) - Implement SSH recommendations
+- [auditd](../auditd/) - Implement audit logging recommendations

@@ -66,3 +66,10 @@ sudo ufw status verbose
 - [UFW Official Documentation](https://help.ubuntu.com/community/UFW)
 - [UFW Manual Page](https://manpages.ubuntu.com/manpages/jammy/man8/ufw.8.html)
 - [CIS Ubuntu Linux Benchmark](https://www.cisecurity.org/benchmark/ubuntu_linux)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [nftables](../nftables/) - Advanced firewall alternative
+- [fail2ban](../fail2ban/) - Intrusion prevention (works with UFW)
+- [ssh-hardening](../ssh-hardening/) - SSH security configuration

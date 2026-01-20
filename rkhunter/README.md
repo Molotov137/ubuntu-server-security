@@ -66,3 +66,10 @@ rkhunter and AIDE are complementary tools for defense-in-depth:
 
 - [rkhunter Official Documentation](http://rkhunter.sourceforge.net/docs/)
 - [Ubuntu rkhunter Package](https://packages.ubuntu.com/search?keywords=rkhunter)
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [aide](../aide/) - File integrity monitoring (complementary tool)
+- [auditd](../auditd/) - Kernel-level audit logging
+- [security-monitoring](../security-monitoring/) - Unified security event monitoring

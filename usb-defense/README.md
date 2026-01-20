@@ -101,3 +101,10 @@ sudo reboot  # Required to re-enable usb-storage
 ## License
 
 MIT License - see [LICENSE](../LICENSE) for details.
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [boot-security](../boot-security/) - Physical security for boot process
+- [auditd](../auditd/) - USB bypass attempt monitoring (Layer 3)
+- [kernel-hardening](../kernel-hardening/) - Kernel module restrictions

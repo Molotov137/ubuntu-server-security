@@ -1,5 +1,7 @@
 # AIDE Failure Alerting
 
+> **TL;DR**: Get instant Telegram alerts when AIDE checks fail via systemd OnFailure hook. Requires bash-production-toolkit and a Telegram bot. Rate-limited to 1 alert/hour.
+
 Real-time Telegram notifications when AIDE file integrity checks fail.
 
 ## Overview

@@ -54,3 +54,10 @@ sudo aideinit
 - ✅ **Database Servers** - Track PostgreSQL configuration changes
 - ✅ **Compliance** - Generate file integrity audit reports
 - ✅ **Defense-in-Depth** - Complement rkhunter and auditd monitoring
+
+## See Also
+
+- [← Back to Repository Root](../README.md)
+- [rkhunter](../rkhunter/) - Rootkit detection (complementary tool)
+- [auditd](../auditd/) - Kernel-level audit logging
+- [security-monitoring](../security-monitoring/) - Unified security event monitoring

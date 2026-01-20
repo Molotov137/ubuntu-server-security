@@ -1,5 +1,7 @@
 # Vaultwarden Integration for Credential Management
 
+> **TL;DR**: Replace plaintext `.env` secrets with Bitwarden CLI. `PASSWORD=$(bw get password "Item" --raw)`. Encrypted, auditable, multi-device sync, no plaintext on disk.
+
 **Optional feature**: Use Bitwarden CLI to manage credentials instead of plaintext `.env` files.
 
 ## Why Vaultwarden Instead of .env Files?
