@@ -336,7 +336,6 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     fi
     echo ""
     echo "Checking vault status..."
-    local status
     status=$(bw status 2>/dev/null | grep -o '"status":"[^"]*"' | cut -d'"' -f4)
     echo "  Status: $status"
     echo ""

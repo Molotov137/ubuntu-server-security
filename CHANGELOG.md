@@ -12,6 +12,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ansible playbook support
 - Docker security hardening module
 
+## [1.1.0] - 2026-01-21
+
+### Added
+- CI/CD pipeline with GitHub Actions
+- ShellCheck linting workflow (severity: error)
+- Bash syntax validation workflow
+- Automated release workflow
+- `.shellcheckrc` configuration (Best Practices 2025)
+- CI status badge in README.md
+
+### Changed
+- All bash scripts now validated on every push to main branch
+
 ## [1.0.1] - 2026-01-20
 
 ### Changed
@@ -62,9 +75,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 1.1.0 | 2026-01-21 | CI/CD pipeline with GitHub Actions (ShellCheck, automated releases) |
 | 1.0.1 | 2026-01-20 | Documentation patch (CODE_OF_CONDUCT.md contact update) |
 | 1.0.0 | 2026-01-20 | Initial release with 14 security components |
 
-[Unreleased]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/fidpa/ubuntu-server-security/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/fidpa/ubuntu-server-security/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/fidpa/ubuntu-server-security/releases/tag/v1.0.0

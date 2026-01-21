@@ -3,6 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-orange?logo=ubuntu)
 ![CIS Benchmark](https://img.shields.io/badge/CIS%20Benchmark-100%25-blue)
+![CI](https://github.com/fidpa/ubuntu-server-security/actions/workflows/lint.yml/badge.svg)
 
 Production-ready security configurations for Ubuntu servers.
 
